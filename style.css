@@ -265,6 +265,7 @@ input[type="radio"] {
 }
 
 .footer .col a {
+    margin-top: 10px;
     display: block;
     text-decoration: none;
     color: #777;
@@ -367,5 +368,41 @@ input[type="radio"] {
     label::after {
         font-size: 22px;
     }
+    .btns{
+        display: flex;
+    }
 
+}
+@media only screen and (max-width:372px) {
+    nav{
+       position: absolute;
+       left: -31px;
+    }
+    .header-content{
+     position: absolute;
+     left: 0;
+     top: -70px;
+    }
+    .header-content h1{
+        line-height: 55px;
+    }
+    .header-content h3{
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    .header-content p{
+        font-size: 13px;
+    }
+    .email-signup{
+    margin-inline: 10px;
+    }
+    .faq{
+        padding: 10px 1%;
+    }
+    .footer .col a{
+        margin-top: 20px;
+    }
+    .footer .language-btn{
+        padding: 5px 10px;
+    }
 }
